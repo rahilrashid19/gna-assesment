@@ -33,7 +33,7 @@ const SearchComponent = () => {
             <div className="relative flex items-center">
               <input
                 type="date"
-                defaultValue={getCurrentDate()} // Set the default date
+                defaultValue={getCurrentDate()}
                 className="pl-8 pr-2 py-2 border-none rounded-lg w-full focus:outline-none focus:ring focus:border-blue-500"
               />
               <div className="absolute top-0 left-2 text-gray-400"></div>
